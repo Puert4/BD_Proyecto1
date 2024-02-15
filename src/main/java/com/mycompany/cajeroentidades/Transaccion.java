@@ -17,6 +17,9 @@ public class Transaccion {
     String fecha_hora;
     float cantidad;
 
+    public Transaccion() {
+    }
+
     public Transaccion(int id_transaccion, String fecha_hora, float cantidad) {
         this.id_transaccion = id_transaccion;
         this.fecha_hora = fecha_hora;
