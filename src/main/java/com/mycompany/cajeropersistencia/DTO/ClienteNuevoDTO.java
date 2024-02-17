@@ -30,6 +30,14 @@ public class ClienteNuevoDTO {
         this.fecha_nacimiento = fecha_nacimiento;
     }
 
+    public int getId_cliente() {
+        return id_cliente;
+    }
+
+    public void setId_cliente(int id_cliente) {
+        this.id_cliente = id_cliente;
+    }
+
     public String getFecha_nacimiento() {
         return fecha_nacimiento;
     }
