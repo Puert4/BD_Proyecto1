@@ -11,6 +11,7 @@ public class DomicilioNuevoDTO {
     private int numero_exterior;
     private int id_cliente;
     private int codigo_postal;
+    
 
     public DomicilioNuevoDTO() {
     }

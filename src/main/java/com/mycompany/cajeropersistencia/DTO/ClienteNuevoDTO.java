@@ -10,11 +10,20 @@ public class ClienteNuevoDTO {
     private String apellido_paterno;
     private String apellido_materno;
     private String fecha_nacimiento;
+    private int id_cliente;
 
     public ClienteNuevoDTO() {
     }
 
-    public ClienteNuevoDTO(String nombres, String apellido_paterno, String apellido_materno,String fecha_nacimiento) {
+    public ClienteNuevoDTO(String nombres, String apellido_paterno, String apellido_materno, String fecha_nacimiento) {
+        this.nombres = nombres;
+        this.apellido_paterno = apellido_paterno;
+        this.apellido_materno = apellido_materno;
+        this.fecha_nacimiento = fecha_nacimiento;
+    }
+
+    public ClienteNuevoDTO(int id_cliente, String nombres, String apellido_paterno, String apellido_materno, String fecha_nacimiento) {
+        this.id_cliente = id_cliente;
         this.nombres = nombres;
         this.apellido_paterno = apellido_paterno;
         this.apellido_materno = apellido_materno;
