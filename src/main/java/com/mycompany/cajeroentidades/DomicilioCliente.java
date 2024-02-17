@@ -8,7 +8,7 @@ import java.util.Objects;
  */
 public class DomicilioCliente {
 
-    private String id_domicilio;
+    private int id_domicilio;
     private String calle;
     private int numero_interior;
     private int numero_exterior;
@@ -19,7 +19,7 @@ public class DomicilioCliente {
 
     }
 
-    public DomicilioCliente(String domicilio, String calle, int numero_interior, int numero_exterior, int id_cliente, int codigo_postal) {
+    public DomicilioCliente(int domicilio, String calle, int numero_interior, int numero_exterior, int id_cliente, int codigo_postal) {
         this.id_domicilio = id_domicilio;
         this.calle = calle;
         this.numero_interior = numero_interior;
@@ -36,11 +36,11 @@ public class DomicilioCliente {
         this.codigo_postal = codigo_postal;
     }
 
-    public String getId_domicilio() {
+    public int getId_domicilio() {
         return id_domicilio;
     }
 
-    public void setId_domicilio(String id_domicilio) {
+    public void setId_domicilio(int id_domicilio) {
         this.id_domicilio = id_domicilio;
     }
 
